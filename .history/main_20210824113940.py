@@ -1,0 +1,1 @@
+print('joab não serve para boneco de mecânica ')
