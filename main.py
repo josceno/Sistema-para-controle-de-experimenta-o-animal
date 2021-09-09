@@ -1,1 +1,0 @@
-print('teste de python se você está lendo isso deu certo')
