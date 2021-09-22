@@ -39,7 +39,6 @@ body{
 .input_user{
     height: 48px;
     width: 100%;
-    margin-bottom: 3px;
     box-sizing: border-box;
     padding-left: 8px;
     border: unset;
@@ -58,7 +57,7 @@ body{
     height: 1px;
     width: 100%;
     margin-bottom: 16px;
-    background-color: #cfcfcf;
+    background-color: #cfccfc;
     transition: .3s ease-in-out;
 }
 
