@@ -15,6 +15,13 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
 (1, 'caio', 'caio@hotmail.com', '123');
+
+INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
+(2, 'presidente', 'presidente@hotmail.com', '123');
+
+INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
+(3, 'secretaria', 'secretaria@hotmail.com', '123');
+
 COMMIT;
 
 
