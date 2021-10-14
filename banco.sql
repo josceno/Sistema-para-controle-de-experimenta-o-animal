@@ -12,7 +12,6 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
-
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
 (1, 'caio', 'caio@hotmail.com', '123');
 COMMIT;
