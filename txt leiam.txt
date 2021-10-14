@@ -1,0 +1,15 @@
+projeto feito em PHP e html5
+para abrir o peojeto sera necessario a instalação do wampserver
+segue o link para instalar o wamp: https://www.youtube.com/watch?v=QXVyCunZN2s&t=300s
+ao terminar a instalação devera criar um arquivo em : C:\wamp64\www
+e colocar os arquivos nessa nova pasta
+
+
+
+IMPORTANTE:
+
+o banco criado deve possuir o nome de cadastro1
+
+
+
+para abrir basta colocar no navegador localhost\"o nome da pasta criada\index
