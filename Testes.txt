@@ -1,0 +1,5 @@
+
+============== Nesse arquivo iremos relatar os resultados dos testes feitos ================
+
+login de usuário = funcionando
+Tela de cadastro = funcionando
