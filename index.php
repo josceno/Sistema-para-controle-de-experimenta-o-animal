@@ -12,7 +12,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         $email = $mysqli->real_escape_string($_POST['email']);
         $senha = $mysqli->real_escape_string($_POST['senha']);
 
-        $sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
+        $sql_code = "SELECT * FROM clientes WHERE email = '$email' AND senha = '$senha'";
         $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
 
         $quantidade = $sql_query->num_rows;
@@ -35,7 +35,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         }
 
     }
-    
+
 }
 ?>
 <!DOCTYPE html>
@@ -51,7 +51,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         <div class="login__container">
             <h1 class="login__title">Tela de Login</h1>
             
-                <form action="" method="POST">
+            <form action="" method="POST">
         <p>
             <label>E-mail</label>
             <input type="text" name="email"  placeholder="Seu E-mail...">
@@ -62,8 +62,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
         </p>
         <p>
         <button class="login__submit">login</button>
-        <a class="login__reset" href="#">Cadastre-se</a> <br>
-                <a class="login__reset" href="#">esqueci a senha</a>
+        <a class="login__submit" href="cadastro.php">Cadastre-se</a> <br>
         </p>
             </form>
         </div>

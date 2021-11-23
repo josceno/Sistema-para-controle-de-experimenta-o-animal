@@ -11,4 +11,5 @@ IMPORTANTE:
 o banco criado deve possuir o nome de cadastro1
 
 
+
 para abrir basta colocar no navegador localhost\"o nome da pasta criada\index
