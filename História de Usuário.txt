@@ -1,0 +1,30 @@
+==================================================
+ FEATURE CADASTRO DE USUÁRIO:
+==================================================
+
+ História de usuário: Como usuário desejo criar uma conta para ter acesso as funcionalidades do sistema;
+ 
+ Cenário de Aceite:
+   - Dado que eu abra a pagina inicial
+   - Quando eu clicar no botão de cadastro
+   - Então serei redirecionado para a tela de Cadastro
+   - Dado que eu insira "Nome completo"
+   - E insira o cpf "xxxxxxxxxxx"
+   - E insira o E-mail "xxxx@gmail.com"
+   - E insira a senha "xxxxxxxx"
+   - Quando eu clicar no botão cadastrar
+   - Então serei redirecionado para a tela de login
+
+==================================================
+ FEATURE LOGIN DE USUÁRIO:
+==================================================
+
+ História de usuário: Como qualquer um dos perfis, Pesquisador, Parecista, Presidente, Secretária e Administrador, 
+ com conta cadastrada ou ativa, desejo me logar para abrir meu Dashboard;
+
+ Cenário de Aceite:
+   - Dado que eu abra a pagina inicial
+   - E insira o E-mail "xxxx@gmail.com"
+   - E insira a senha "xxxxxxxx"
+   - Quando eu clicar no botão de login
+   - Então serei redirecionado para a tela de dashboard
