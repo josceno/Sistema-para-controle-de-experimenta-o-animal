@@ -1,0 +1,37 @@
+==================================================
+ FEATURE CRIAÇÃO DE CONTAS:
+==================================================
+
+ História de usuário: Como qualquer Administrador, com conta cadastrada ou ativa,
+ desejo criar contas para a secretária:
+
+ Cenário de Aceite:
+  - Dado que o Admnistrador realize login corretamente;
+  - Então será redirecionado para a tela de dashboard;
+  - Então serão exibidas as opções "Criar conta" e "Excluir conta";
+  - Dado que o Admnistrador clique em "Criar conta"; 
+  - Então ele deve preencher email e senha;
+  - E será solicitada sua senha de acesso;
+  - Dado que o Admnistrador forneça a senha correta;
+  - Então será exibida uma mensagem de sucesso;
+  - E a conta será criada.
+
+==================================================
+ FEATURE EXCLUIR CONTA:
+==================================================
+
+ História de usuário: Como qualquer Administrador, com conta cadastrada ou ativa,
+ desejo excluir contas criadas por mim:
+
+ Cenário de Aceite:
+   - Dado que o Admnistrador realize login corretamente;
+   - Então será redirecionado para a tela de dashboard;
+   - Então serão exibidas as opções "Criar conta" e "Excluir conta";
+   - Dado que o Admnistrador -** clique em "Excluir conta";
+   - Então uma lista com as contas criadas por ele, será exibida;
+   - E ele deverá selecionar a conta que deseja excluir; 
+   - Então será solicitada sua senha de acesso;
+   - Dado que o Admnistrador forneça a senha correta;
+   - Então será exibida uma mensagem de sucesso;
+   - E a conta será excluída.
+     
