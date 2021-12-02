@@ -1,0 +1,19 @@
+==================================================
+ FEATURE HISTÓRIA DO PARECISTA
+==================================================
+
+ Em seu dashboard, o Parecista visualiza os protocolos direcionados a ele;
+ - Parecista clica em um botão para avaliar a solicitação.
+
+==================================================
+ FEATURE CENÁRIO DO PARECISTA
+==================================================
+
+ Cenário: Selecionado Protocolo
+ - Uma tela será exibida ao parecista para que ele selecione o protocolo a ser avaliado;
+
+ Cenário: Avaliando a solicitação
+ - Uma tela será exibida ao parecista para que ele preencha sua avaliação;
+ - O Parecista preenche o campo "Parecer sobre a solicitação";
+ - O Parecista escolhe entre as opções "Recomendado" e "Não recomendado";
+ - O parecista clica no botão "Concluir".
