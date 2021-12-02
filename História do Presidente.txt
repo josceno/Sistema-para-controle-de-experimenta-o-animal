@@ -1,0 +1,17 @@
+==================================================
+ FEATURE HISTÓRIA DO PRESIDENTE
+==================================================
+
+ Presidente é um status para usuário comum;
+ O Presidente tem acesso a todos os cenários.
+
+==================================================
+ FEATURE CENÁRIO DO PRESIDENTE
+==================================================
+ Cenário: Aprovação Final
+ - Em seu dashboard, o usuário com status "Presidente" visualiza protocolos que
+   estão aguardando deliberação;
+ - O Presidente clica para avaliar; 
+ - Será exibida uma tela com o as informações da solicitação e o parecer do Parecista;
+ - O Presidente seleciona entre as opções "Aprovado" ou "Reprovado".
+
