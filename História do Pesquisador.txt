@@ -1,0 +1,26 @@
+==================================================
+ FEATURE HISTÓRIA DE PESQUISADOR
+==================================================
+
+ História do pesquisador: como pesquisador, desejo ter acesso à pesquisa para preencher
+ as respectivas informações necessárias;
+ 
+ Cenário do pesquisador:
+ - Uma tela será exibida;
+ - Ao ter acesso a tela, o Pesquisador irá preencher as informações da pesquisa;
+ - Pesquisador preenche o campo com  "Justificativa para uso de animais";
+ - Pesquisador preenche o campo com  "Resumo do trabalho em português";
+ - Pesquisador preenche o campo com  "Resumo do trabalho em inglês";
+ - Pesquisador preenche o campo com  "Data prevista de inicio do experimento";
+ - Pesquisador preenche o campo com  "Data prevista de termino do experimento";
+ - Pesquisador preenche o campo com  "Espécies que serão utilizadas";
+ - Pesquisador preenche o campo com  "Quantidade de animais que serão utilizados";
+ - Pesquisador preenche o campo com  "Quantidade de animais de cada espécie";
+ - Pesquisador preenche o campo com  "Biotério de cada espécie";
+
+==================================================
+ FEATURE CADASTRO DE PESQUISADOR
+==================================================
+
+ Com o cadastro efetuado, o pesquisador usa o seu usuário e senha para efetuar login;
+ Após efetuar os respectivos preenchimentos, o pesquisador aguarda a aprovação do parecista.
